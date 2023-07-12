@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .orange + li {
+        color: orangered;
+    }
+    li + li {
+        font-style: italic;
+        font-weight: 900;
+        list-style: none ;
+    }
+    .red ~ li {
+        background: lavender;
+    }
+</style>
+<body>
+    <ul>
+        <li class="orange">오랜지</li>
+        <li>사과</li>
+        <li>딸기</li>
+        <li>포도</li>
+        <li class="red">망고</li>
+        <li class="red">자몽</li>
+        <li>레몬</li>
+    </ul>
+</body>
+</html>
