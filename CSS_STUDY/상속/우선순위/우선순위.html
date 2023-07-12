@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: azure ;
+        }
+        #c-y{
+            color: aliceblue;
+        }
+        #c-g{
+            color: cornflowerblue;
+        }
+        body{
+            color: deepskyblue;
+        }
+        div{
+            color: antiquewhite;
+        }
+        h1{
+            color: aqua;
+        }
+        .bbb h1{
+            color: tomato;
+        }
+        #aaa div.bbb h1{
+            color: violet;
+        }
+        #aaa .bbb h1{
+            color: antiquewhite;
+        }
+        div.bbb>h1{
+            color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="c-y" class="c-g" style="color: aquamarine;">안녕하세요</div>
+    <div id="c-y" class="c-g">Hello</div>
+    <div class="c-g">안녕하세욥</div>
+    <div>안녕하세요</div>
+    
+  <div id="aaa">
+    <div class="bbb">
+        <h1>안녕</h1>
+    </div>
+  </div>
+
+</body>
+</html>
