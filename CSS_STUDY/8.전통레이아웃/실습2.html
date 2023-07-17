@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습2</title>
+    <link rel="style" href="../../commom.css">
+    <style>
+    .clearfix::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #a{
+        width: 1200px;
+        height: 500px;
+        background:#BDBDBD;
+        border: 3px solid #6E6E6E;
+        margin: 19px;
+       
+    }
+    h1{ 
+        text-align: center;
+        font-size:3;
+        font-family: '궁서체',cursive;
+        background:#F2F2F2;
+        border: 3px solid #A4A4A4;
+        padding: 10px 0;
+    }
+    h2{
+        background:#848484;
+        border: 1px solid #848484;
+        font-size: 20px;
+        text-align: center;
+    }
+    .b{
+        width: 250px;
+        height: 350px;
+        border: 3px solid #848484;
+        background: #F6D8CE;
+        float: left;
+        margin: 19px;
+        box-sizing: border-box;
+        padding: 15px;
+        line-height: 1.2;
+        text-align: justify;
+        text-indent: 7px;
+    }
+    .c{
+        width: 250px;
+        height: 350px;
+        border: 3px solid #848484;
+        background: #E6E0F8;
+        float: left;
+        margin: 19px;
+        box-sizing: border-box;
+        padding: 15px;
+        line-height: 1.2;
+        text-align: justify;
+        text-indent: 7px;
+    }
+    .d{
+        width: 250px;
+        height: 350px;
+        border: 3px solid #848484;
+        background: #F7F8E0;
+        float: left;
+        margin: 19px;
+        box-sizing: border-box;
+        padding: 15px;
+        line-height: 1.2;
+        text-align: justify;
+        text-indent: 7px;
+    }
+    .e{
+        width: 250px;
+        height: 350px;
+        border: 3px solid #848484;
+        background: #ECF6CE;
+        float: left;
+        margin: 19px;
+        box-sizing: border-box;
+        padding: 15px;
+        line-height: 1.2;
+        text-align: justify;
+        text-indent: 7px;
+    }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <h1>나의 아름다운 정원</h1>
+        <h2>사람들은 아마 자신에게 <span style="color: yellow; size: 1.5em;">자신감을 복돋워 주는</span> 표정 있는 꽃들을 선호할 것이다.</h2>
+        <div class="b clearfix" >
+            <img src="./1.jpg" alt="" style="width: 200px; height: 150px;"><br>
+            너무 화려하지 않으며 고귀한 느낌을 가지고 있다.
+            붉은 색이 단연 으뜸이며 한 송이만 있어도 빼어나다.
+        </div>
+        <div class="c clearfix">
+            <img src="./2.jpg" alt="" style="width: 200px; height: 150px;"><br>
+            드물게 푸른색을 띠고 있으며 작지만 시원해 보이는
+            어린 꽃이라고 할 수 있다. 여럿이 함께 있을 때 더욱 아름답다.
+        </div>
+        <div class="d clearfix">
+            <img src="./3.jpg" alt="" style="width: 200px; height: 150px;"><br>
+            색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로
+            매우 완숙한 이미지를 풍기는 꽃이다
+        </div>
+        <div class="e clearfix">
+            <img src="./4.jpg" alt="" style="width: 200px; height: 150px;"><br>
+            태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에
+            속하며 송이가 적어야 제격이다.
+        </div>
+    </div>
+</body>
+</html>
