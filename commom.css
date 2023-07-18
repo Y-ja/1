@@ -13,3 +13,27 @@ a {
   display: block;
   clear: both;
 }
+
+.btn{
+  background: #fff;
+  color: violet;
+  font: inherit;
+  font-weight: 700;
+  border-radius: 7px;
+  border: 2px solid whitesmoke;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #BDBDBD;
+  color: #fff;
+}
+.btn-red{
+  background: #F6CECE;
+  color: #fff;
+  border: 2px solid #F5A9A9;
+}
+.btn-red:hover{
+  background: #fff;
+  color: #F78181;
+}
